@@ -1,0 +1,20 @@
+body{
+  background-color: #a8dadc;
+}
+.black{
+  width: 100px;
+  height: 100px;
+  background-color: #f1faee;
+  float: left;
+}
+.red{
+  width: 100px;
+  height: 100px;
+  background-color: #e63946;
+  float: left;
+}
+.board {
+  width: 800px;
+  display: flow-root;
+  margin: 100px auto;
+}
