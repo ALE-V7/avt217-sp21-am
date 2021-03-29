@@ -1,6 +1,7 @@
 body{
   background-color: #a8dadc;
 }
+/* checkerboard */
 .black{
   width: 100px;
   height: 100px;
@@ -17,4 +18,90 @@ body{
   width: 800px;
   display: flow-root;
   margin: 100px auto;
+}
+/* 3 column grid */
+.header {
+  width: 700px;
+  height: 50px;
+  margin: 5px;
+  float: left;
+  background-color:  #e63946;
+}
+.nav {
+  width: 700px;
+  height: 20px;
+  margin: 5px;
+  float: left;
+  background-color:  #e63946;
+}
+.column {
+  width: 218px;
+  height: 600px;
+  margin: 10px;
+  float: left;
+  background-color: #f1faee;
+}
+/* Blogpost */
+.header2 {
+  width: 800px;
+  height: 150px;
+  margin-bottom: 100px;
+  float: left;
+  background-color: #f1faee;
+}
+.main {
+  width: 600px;
+  height: 500px;
+  margin-bottom: 15px;
+  float: left;
+  background-color: #e63946;
+}
+.nav {
+  width: 185px;
+  height: 250px;
+  float: right;
+  background-color: #1d3557;
+}
+.footer {
+  width: 800px;
+  height: 50px;
+  margin-bottom: 100px;
+  float: left;
+  background-color: #457b9d;
+}
+/* tennis court */
+.tennis {
+  width: 646px;
+  display: flow-root;
+  margin: 50px auto 0px;
+}
+.left {
+  width: 80px;
+  height: 320px;
+  float: left;
+  margin: 1px 1px 1px 50px;
+  background-color: #457b9d;
+}
+.right {
+  width:80px;
+  height: 320px;
+  float: right;
+  margin: 1px 50px 1px 1px;
+    background-color: #457b9d;
+
+}
+.rect {
+  width: 382px;
+  height: 128px;
+  float:left;
+  margin: 1px;
+  margin-top: 1px;
+  background-color: #1d3557;
+}
+.court {
+  width: 190px;
+  height: 190px;
+  margin: 1px;
+  float: left;
+  background-color: #e63946;
 }
